@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=opensuse/leap:latest
+ARG BASE_IMAGE=opensuse/tumbleweed:latest
 FROM quay.io/kairos/kairos-init:v0.13.0 AS kairos-init
 
 FROM ${BASE_IMAGE} AS base-kairos
