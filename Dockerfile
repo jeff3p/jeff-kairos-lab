@@ -1,5 +1,5 @@
 ARG BASE_IMAGE=opensuse/tumbleweed:latest
-FROM quay.io/kairos/kairos-init:v0.13.0 AS kairos-init
+FROM quay.io/kairos/kairos-init:v0.14.4 AS kairos-init
 
 FROM ${BASE_IMAGE} AS base-kairos
 ARG VARIANT=core
