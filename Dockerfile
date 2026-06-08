@@ -5,7 +5,7 @@ FROM ${BASE_IMAGE} AS base-kairos
 ARG VARIANT=core
 ARG MODEL=generic
 ARG TRUSTED_BOOT=false
-ARG PROVIDER_NAME=k3s
+ARG PROVIDER_NAME=k0s
 #optionally specify provider version
 ARG PROVIDER_VERSION=latest
 ARG VERSION=1.00.00
