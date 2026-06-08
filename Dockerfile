@@ -7,7 +7,7 @@ ARG MODEL=generic
 ARG TRUSTED_BOOT=false
 ARG PROVIDER_NAME=k3s
 #optionally specify provider version
-ARG PROVIDER_VERSION=v1.36.1+k3s1
+ARG PROVIDER_VERSION=latest
 ARG VERSION=1.00.00
 
 COPY --from=kairos-init /kairos-init /kairos-init
