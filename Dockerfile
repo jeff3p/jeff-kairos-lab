@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=rockylinux:10
+ARG BASE_IMAGE=quay.io/rockylinux/rockylinux:10
 FROM quay.io/kairos/kairos-init:v0.14.4 AS kairos-init
 
 FROM ${BASE_IMAGE} AS base-kairos
