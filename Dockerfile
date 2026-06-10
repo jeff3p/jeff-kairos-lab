@@ -1,3 +1,6 @@
-ARG BASE_IMAGE=us-docker.pkg.dev/palette-images/edge/kairos-ubuntu:22.04-core-amd64-generic-v4.0.3
+ARG BASE_IMAGE=quay.io/jfronius/kairos-opensuse:unpatched-ubuntu-base
 
 FROM ${BASE_IMAGE} AS base-kairos
+
+RUN apt-get update \
+    && apt-get upgrade -y
